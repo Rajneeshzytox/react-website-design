@@ -19,7 +19,7 @@ function Nav(props) {
 
   return (
     <nav className="w-full text-slate-900">
-      <ul className="flex gap-6 px-6 py-3 ">{navItems}</ul>
+      <ul className="flex gap-6 py-3 ">{navItems}</ul>
     </nav>
   );
 }

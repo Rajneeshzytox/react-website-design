@@ -5,6 +5,7 @@ import Nav from "./sections/Nav"
 
 // components
 import Hr from "./components/Hr"
+import Layout from "./components/Layout_g_3_1"
 
 function App() {
   return(
@@ -13,6 +14,8 @@ function App() {
     <Page>
        <Nav items={["Home", "About", "Shop", "Profile"]} />
       <Hr />
+
+      <Layout />
     </Page>
     </>
   )

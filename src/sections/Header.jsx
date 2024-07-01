@@ -1,4 +1,5 @@
-import logo from  "../assets/logo.png"
+const logo = "/public/assets/logo.png"
+
 
 export default function Header(){
     return(
