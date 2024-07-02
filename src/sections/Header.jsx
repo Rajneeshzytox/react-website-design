@@ -9,8 +9,8 @@ export default function Header(){
                 <img src={logo} className="max-w-full"/>
             </div>
 
-            <div className="w-1/3 min-w-56 flex justify-center items-cente ring">
-                <input type="search" placeholder="search" className="px-2 py-2 w-full bg-slate-50 outline-none"/>
+            <div className="w-1/3 min-w-56 flex justify-center items-cente rounded-md overflow-clip text-sm">
+                <input type="search" placeholder="search" className="px-2 py-1 w-full bg-slate-50 outline-none"/>
 
                 <button className=" bg-blue-500 px-2 py-1 flex justify-center items-center "><span className="material-symbols-outlined text-white">search</span></button>
             </div>

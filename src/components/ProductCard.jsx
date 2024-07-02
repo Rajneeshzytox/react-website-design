@@ -1,19 +1,25 @@
 
 
-export default function ProductCard(props){
-    const ProductUrl = `/public/assets/${props.src}`;
+export default function ProductCard({detail}){
+    const ProductUrl = `/public/assets/${detail.src}`;
     return(
-        <div className="min-w-48 min-h-60 flex flex-col items-center gap-2 overflow-clip">
-            <img className=" w-full object-cover h-52 object-center" src={ProductUrl}/>
+        <div className="w-52 min-w-52 max-w-52 min-h-60 flex flex-col items-center gap-2 overflow-clip flex-nowrap">
+            <img className="bg-slate-100 w-full object-cover h-52 object-center" src={ProductUrl}/>
 
-            <p className=" text-center text-sm ">Lorem ipsum dolor sit amet consectetur</p>
+            <p className=" text-center text-sm ">
+            {detail.disc}
+            </p>
 
             <div className="price flex items-end gap-3 font-bold">
-                <strike className="text-xs text-red-500">$67.99</strike>
-                <p>$56.99</p>
+                <strike className="text-xs text-red-500">
+                    {detail.prePrice}
+                </strike>
+                <p>
+                    {detail.newPrice}
+                </p>
             </div>
 
-            <button className="px-2 py-1 bg-slate-800 hover:bg-blue-500 font-semibold text-white text-xs flex items-center gap-2"><span class="material-symbols-outlined">
+            <button className="px-2 py-1 bg-slate-800 hover:bg-blue-500 font-semibold text-white text-xs flex items-center gap-2"><span className="material-symbols-outlined">
                 shopping_cart
             </span>Add to Cart</button>
         </div>

@@ -1,19 +1,19 @@
 import Hr from "../components/Hr"
 import ProductCard from "../components/ProductCard"
 
-export default function Products(){
-
+export default function Products({heading, cards}){
+      
     return(
-        <section className="mt-5">
-            <h2 className="font-semibold">New Products</h2>
-            <Hr my="my-1" />
+        <section className="mt-8">
+            <h2 className="font-bold my-4 text-xl">{heading}</h2>
+            <Hr />
             <main className="flex gap-12 overflow-clip">
-                <ProductCard src="product1.png" />
-                <ProductCard src="product1.png" />
-                <ProductCard src="product1.png" />
-                <ProductCard src="product1.png" />
-                <ProductCard src="product1.png" />
-                <ProductCard src="product1.png" />
+                {/* <ProductCard detail={cards[3]} /> */}
+                {
+                    cards.map((card) =>{
+                       return <ProductCard key={card.id} detail={card} />
+                    })
+                }
             </main>
         </section>
     )
