@@ -1,7 +1,10 @@
 
 
 export default function ProductCard({detail}){
-    const ProductUrl = `/public/assets/${detail.src}`;
+    // const ProductUrl = `/public/assets/${detail.src}`;
+    const ProductUrl = detail.src;
+
+    
     return(
         <div className="w-52 min-w-52 max-w-52 min-h-60 flex flex-col items-center gap-2 overflow-clip flex-nowrap">
             <img className="bg-slate-100 w-full object-cover h-52 object-center" src={ProductUrl}/>
