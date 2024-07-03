@@ -7,12 +7,12 @@ import Footer from "./sections/Footer"
 
 
 // components
+import FooterCards from "./components/FooterCards"
 import Hr from "./components/Hr"
 import Layout from "./components/Layout_g_3_1"
 
 // data import
 import { newProduct_data, featuredProduct_data } from "./data/Product_data"
-
 
 // App Component
 function App() {
@@ -29,6 +29,7 @@ function App() {
       
     </Page>
     <Page>
+      <FooterCards/>
       <Footer />
     </Page>
     </>

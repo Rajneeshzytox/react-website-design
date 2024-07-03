@@ -1,5 +1,5 @@
 const h3Style = "text-xl font-semibold mb-8";
-const aStyle = " hover:font-semibold";
+const aStyle = "font-semibold text-slate-600 hover:text-black";
 
 export default function Footer(){
     return(

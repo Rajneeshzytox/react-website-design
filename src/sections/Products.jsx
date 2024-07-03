@@ -45,7 +45,7 @@ export default function Products({heading, cards}){
                     
                 </div>
                  {/* slider Scroller Container container */}
-                <div className="slide-scroller w-fit flex gap-12 ring transition-all" style={{transform: `translateX(${currentPosition}px)`}}>
+                <div className="slide-scroller w-fit flex gap-12  transition-all" style={{transform: `translateX(${currentPosition}px)`}}>
                 {
                     cards.map((card) =>{
                        return <ProductCard key={card.id} detail={card} />

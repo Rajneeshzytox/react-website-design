@@ -14,7 +14,7 @@ const liStyle = ""
 function Nav(props) {
   const items = props.items;
   const navItems = items.map((item) =>
-    <li className="font-bold hover:bg-blue-500 px-2 py-1 rounded-sm transition duration-75 hover:text-white" key={item}><a href={`#${item}`}>{item}</a></li>
+    <li className="font-bold text-slate-500 hover:text-black px-2 py-1 rounded-sm transition duration-75 " key={item}><a href={`#${item}`}>{item}</a></li>
   );
 
   return (
