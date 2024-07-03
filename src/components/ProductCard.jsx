@@ -6,7 +6,7 @@ export default function ProductCard({detail}){
 
     
     return(
-        <div className="w-52 min-w-52 max-w-52 min-h-60 flex flex-col items-center gap-2 overflow-clip flex-nowrap">
+        <div className="CardWidth w-52 min-w-52 max-w-52 min-h-60 flex flex-col items-center gap-2 overflow-clip flex-nowrap">
             <img className="bg-slate-100 w-full object-cover h-52 object-center" src={ProductUrl}/>
 
             <p className=" text-center text-sm ">
