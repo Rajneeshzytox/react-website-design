@@ -1,4 +1,4 @@
-
+![React Site 1 Learning](./public/thumb/Thumbnail-react-site-1.jpg)
 
 # React Webpage Showcase
 
@@ -65,10 +65,10 @@ Example data structure in `data/Product_data.jsx`:
 ]
 ```
 ## Screenshot (Project)
-![Inspiration Screenshot](/public/screenshot/laptop_ss.png)
+![Inspiration Screenshot](/public/thumb/devices-react-site-1.jpg)
 
 ## Screenshot (Inspiration)
-![Inspiration Screenshot](/public/screenshot/inspiration.jpg)
+![Inspiration Screenshot](/public/thumb/inspiration-react-site-1.jpg)
 
 
 ---
@@ -78,7 +78,7 @@ see screenshots for mobile/tab/laptop in `/public/screenshot/`
 ---
 ## Contact
 - **Email**: kumarrajneesh.work@gmail.com
-- **LinkedIn**: /in/rajneeshzytox
+- **LinkedIn**: [rajneeshzytox](https://www.linkedin.com/in/rajneeshzytox/)
 - **Instagram**: @rajneeshzytox
 - **Twitter (X)**: rajneeshzytox
 - **Portfolio**: [rajneeshzytox](rajneeshzytox.github.io/portfolio)
